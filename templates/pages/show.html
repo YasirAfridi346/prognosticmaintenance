@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Intellectual AI</title>
+</head>
+<body>
+<div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Test Score: {{ result.output }}</h1>
+                <hr>
+                <div><img src='static/images/prediction.png' class="img-rounded" width="auto" height="auto"></div>
+                <hr>
+                <a href = "{{ url_for('upload_image') }}" class="btn btn-default"><strong>Back</strong> </a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
+
+
